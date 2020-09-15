@@ -1,8 +1,10 @@
 # Task-1
 
-abstract class Tile
-        {
-            public enum TileType
+       abstract class Tile
+       
+       {
+           
+           public enum TileType
             { HERO, ENEMY, GOLD, WEAPON }
 
            
@@ -48,7 +50,9 @@ abstract class Tile
             
         }
         
- public virtual void Attack()
+ 
+        public virtual void Attack()
+        
         { int enemyHp=0;
            enemyHp = enemyHp - Damage; }
         public bool IsDead()
